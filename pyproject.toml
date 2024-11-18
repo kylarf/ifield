@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=66.0", "wheel", "numpy", "cython"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ifield"
+authors = [
+    {name = "Kylar Flynn", email = "keflynn@usc.edu"},
+    {name = "Gabriel Goldman", email = "gdgoldma@usc.edu"},
+    {name = "Jose Torres", email = "torresja@usc.edu"},
+    {name = "Connor Storey", email = "cwstorey@usc.edu"}
+]
+version = "0.1"
+description = "Interactive electrostatic potential and field simulation with user-defined boundary conditions."
+requires-python = ">=3.10"
+
+dependencies = ["numpy", "cython", "pygame"]
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["ifield"]

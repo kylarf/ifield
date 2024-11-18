@@ -1,0 +1,10 @@
+**/__pycache__/
+**/build/
+**/dist/
+**/*.so
+**/*.egg-info
+**/*.pyc
+**/.idea/
+**/.vscode/
+src/ifield/solvers.c
+.python-version
