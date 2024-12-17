@@ -14,7 +14,7 @@ version = "0.1"
 description = "Interactive electrostatic potential and field simulation with user-defined boundary conditions."
 requires-python = ">=3.10"
 
-dependencies = ["numpy", "cython", "pygame"]
+dependencies = ["numpy", "scipy", "cython", "pygame"]
 
 [tool.setuptools]
 include-package-data = false
