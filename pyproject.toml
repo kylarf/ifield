@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=66.0", "wheel", "numpy", "cython"]
+requires = ["setuptools>=66.0", "wheel", "numpy"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -14,7 +14,7 @@ version = "0.1"
 description = "Interactive electrostatic potential and field simulation with user-defined boundary conditions."
 requires-python = ">=3.10"
 
-dependencies = ["numpy", "scipy", "cython", "pygame"]
+dependencies = ["numpy", "scipy", "pygame"]
 
 [tool.setuptools]
 include-package-data = false
